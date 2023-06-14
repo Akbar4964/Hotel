@@ -1,0 +1,30 @@
+.firm {
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+
+    &__main {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 52px;
+        line-height: 58px;
+        color: #000000;
+    }
+
+    &__text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+        color: rgba(0, 0, 0, 0.5);
+        height: 90px;
+        width: 506px;
+    }
+}

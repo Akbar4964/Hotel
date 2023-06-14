@@ -1,0 +1,43 @@
+.order {
+    background-image: url(/img/order-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__title {
+        margin-top: 138px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 52px;
+        line-height: 58px;
+        text-align: center;
+        color: #000000;
+        height: 232px;
+        width: 426px;
+    }
+
+    &__text {
+        margin-top: 63px;
+        height: 150px;
+        width: 474px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 30px;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+    &__img {
+        padding-top: 238px;
+        display: flex;
+        align-items: center;
+    }
+}

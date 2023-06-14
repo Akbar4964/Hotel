@@ -1,0 +1,61 @@
+.covid {
+
+    margin-top: 100px;
+
+    &__main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__card {
+        border: 1px solid #E2E3E6;
+        border-radius: 20px;
+        height: 560px;
+        width: 622px;
+        margin: 0 30px;
+        animation-name: covid__card;
+        animation-duration: 7s;
+        animation-iteration-count: infinite;
+        animation-delay: 0.5s;
+        margin-bottom: 100px;
+    }
+
+    &__img {
+        text-align: center;
+        padding-top: 57px;
+    }
+
+    &__title {
+        padding-top: 20px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 52px;
+        line-height: 58px;
+        text-align: center;
+        color: #000000;
+    }
+
+    &__text {
+        padding-top: 47px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 30px;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+    @keyframes covid__card {
+        from {
+            background-image: linear-gradient(rgb(170, 0, 255), rgb(23, 5, 159), rgb(83, 0, 132));
+            opacity: 0.3;
+        }
+
+        to {
+            background-image: linear-gradient(aqua, blue, rgb(125, 134, 252));
+        }
+    }
+}

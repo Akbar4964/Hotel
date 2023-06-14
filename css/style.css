@@ -1,0 +1,616 @@
+@charset "UTF-8";
+.menu {
+  margin-top: 50px;
+}
+.menu__main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu__btn button {
+  height: 39px;
+  width: 204px;
+  border-radius: 30px;
+  background: #000000;
+}
+.menu__btn a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.menu__content {
+  background-image: url(/img/menu-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  margin-top: 38px;
+}
+.menu__text {
+  max-width: 628px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 74px;
+  color: #FFFFFF;
+  padding-left: 30px;
+}
+.menu__title {
+  padding-left: 165px;
+  padding-top: 274px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 34px;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+}
+.menu__head {
+  padding-left: 165px;
+  margin-top: 5px;
+  padding-bottom: 51px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.covid {
+  margin-top: 100px;
+}
+.covid__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.covid__card {
+  border: 1px solid #E2E3E6;
+  border-radius: 20px;
+  height: 560px;
+  width: 622px;
+  margin: 0 30px;
+  animation-name: covid__card;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-delay: 0.5s;
+  margin-bottom: 100px;
+}
+.covid__img {
+  text-align: center;
+  padding-top: 57px;
+}
+.covid__title {
+  padding-top: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 58px;
+  text-align: center;
+  color: #000000;
+}
+.covid__text {
+  padding-top: 47px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+}
+@keyframes covid__card {
+  from {
+    background-image: linear-gradient(rgb(170, 0, 255), rgb(23, 5, 159), rgb(83, 0, 132));
+    opacity: 0.3;
+  }
+  to {
+    background-image: linear-gradient(aqua, blue, rgb(125, 134, 252));
+  }
+}
+
+.code {
+  background: #A9FF2C;
+  border-radius: 20px;
+  height: 260px;
+  width: 1273px;
+  margin: 0 auto;
+}
+.code__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 51px;
+  color: #000000;
+  padding-top: 13px;
+  padding-left: 30px;
+  padding-bottom: 43px;
+}
+
+.brauzer {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.brauzer__title {
+  max-width: 558px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 58px;
+  color: #000000;
+}
+.brauzer__text {
+  max-width: 486px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.brauzer__main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site__main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+.site__card {
+  background-image: url(/img/site0.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 10px;
+  margin: 94px 0;
+  border-radius: 20px;
+}
+.site__card img {
+  margin-left: 140px;
+  width: 50%;
+}
+.site__head {
+  margin-top: 22px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 34px;
+  text-align: center;
+  color: #000000;
+}
+.site__text {
+  margin-top: 15px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.otel {
+  display: flex;
+  margin-top: 150px;
+}
+.otel p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 58px;
+  color: #000000;
+  height: 290px;
+  width: 806px;
+  text-align: center;
+}
+
+.service {
+  margin-top: 200px;
+}
+.service__main {
+  display: flex;
+}
+.service__mein {
+  margin-top: 66px;
+  display: flex;
+}
+.service__title {
+  margin-top: 18px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 41px;
+  color: #000000;
+}
+.service__text {
+  margin-top: 38px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.service__card {
+  padding: 0 30px;
+  margin-bottom: 100px;
+}
+.service__card img {
+  width: 100%;
+}
+
+.wifi {
+  background: #A9FF2C;
+  border-radius: 20px;
+  height: 310px;
+  width: 1273px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.wifi p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 51px;
+  color: #000000;
+  padding-top: 13px;
+  padding-left: 30px;
+  padding-bottom: 43px;
+}
+
+.order {
+  background-image: url(/img/order-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.order__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.order__title {
+  margin-top: 138px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 58px;
+  text-align: center;
+  color: #000000;
+  height: 232px;
+  width: 426px;
+}
+.order__text {
+  margin-top: 63px;
+  height: 150px;
+  width: 474px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+}
+.order__img {
+  padding-top: 238px;
+  display: flex;
+  align-items: center;
+}
+
+.firm {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.firm__main {
+  display: flex;
+  justify-content: space-between;
+}
+.firm__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 58px;
+  color: #000000;
+}
+.firm__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.5);
+  height: 90px;
+  width: 506px;
+}
+
+.phone {
+  background-image: url(/img/order-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+.phone img {
+  margin: 0 20px;
+}
+
+.image {
+  margin-top: 100px;
+}
+.image__one {
+  display: flex;
+  justify-content: space-between;
+}
+.image__two {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.applepay {
+  background: #A9FF2C;
+  border-radius: 20px;
+  height: 260px;
+  width: 1273px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.applepay__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 51px;
+  color: #000000;
+  padding-top: 13px;
+  padding-left: 30px;
+  padding-bottom: 43px;
+}
+
+.comment {
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.comment img {
+  margin-top: 30px;
+}
+.comment button {
+  width: auto;
+  height: 50px;
+  border: 0;
+  border-radius: 30px;
+  padding: 70px 50px;
+  cursor: pointer;
+  background-color: black;
+}
+.comment button a {
+  font-family: "Roboto";
+  color: greenyellow;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+}
+.comment button:hover {
+  background-image: url(/img/Без\ названия.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li,
+ul {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1240px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 400px) {
+  .menu__content {
+    width: 100%;
+    background-position: center;
+    height: auto;
+  }
+  .menu__img img {
+    width: 100%;
+  }
+  .menu__btn button {
+    width: 100%;
+  }
+  .menu__btn a {
+    font-size: 14px;
+  }
+  .menu__text {
+    padding-left: 0;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    line-height: 32px;
+  }
+  .menu__title {
+    padding-left: 0;
+    padding-top: 300px;
+    font-size: 20px;
+  }
+  .menu__head {
+    padding-left: 0;
+    padding-bottom: 100px;
+    font-size: 15px;
+  }
+  .covid__main {
+    display: flex;
+    flex-direction: column;
+  }
+  .covid__card {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+  }
+  .code {
+    width: 80%;
+    height: auto;
+    padding: 0 3px;
+  }
+  .code__text {
+    font-size: 23px;
+  }
+  .brauzer__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: none;
+  }
+  .brauzer__title {
+    width: 100%;
+    font-size: 30px;
+  }
+  .brauzer__text {
+    width: 100%;
+    font-size: 20px;
+  }
+  .site__card {
+    margin: 30px 0;
+  }
+  .site__card img {
+    margin-left: 0;
+    width: 100%;
+  }
+  .otel {
+    flex: none;
+  }
+  .otel P {
+    font-size: 25px;
+    width: 100%;
+  }
+  .service__main {
+    display: flex;
+    flex-direction: column;
+  }
+  .service__mein {
+    display: flex;
+    flex-direction: column;
+  }
+  .service__card img {
+    width: 100%;
+  }
+  .wifi {
+    width: 80%;
+    height: auto;
+    padding: 0 3px;
+  }
+  .wifi p {
+    font-size: 23px;
+  }
+  .order {
+    background-image: url(/img/order-background.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+  }
+  .order__content {
+    display: flex;
+    flex-direction: column;
+  }
+  .order__title {
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+  }
+  .order__text {
+    margin-top: 10px;
+    width: 100%;
+    font-size: 15px;
+  }
+  .order__img {
+    padding-top: 30px;
+  }
+  .order__img img {
+    width: 100%;
+  }
+  .firm__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: none;
+  }
+  .firm__title {
+    width: 100%;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .firm__text {
+    width: 100%;
+    font-size: 20px;
+  }
+  .phone {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+  }
+  .phone img {
+    margin: 20px 0;
+    width: 100%;
+  }
+  .image__one {
+    display: flex;
+    flex-direction: column;
+    justify-content: 0;
+  }
+  .image__one img {
+    width: 100%;
+  }
+  .image__two {
+    display: flex;
+    flex-direction: column;
+    justify-content: 0;
+  }
+  .image__two img {
+    width: 100%;
+  }
+  .applepay {
+    width: 80%;
+    height: auto;
+    padding: 0 3px;
+  }
+  .applepay__text {
+    font-size: 23px;
+  }
+  .comment img {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */

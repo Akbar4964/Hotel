@@ -1,0 +1,15 @@
+.image {
+    margin-top: 100px;
+
+    &__one {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__two {
+        margin-top: 100px;
+        margin-bottom: 100px    ;
+        display: flex;
+        justify-content: space-between;
+    }
+}

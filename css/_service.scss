@@ -1,0 +1,43 @@
+.service {
+
+    margin-top: 200px;
+
+
+    &__main {
+        display: flex;
+    }
+
+    &__mein {
+        margin-top: 66px;
+        display: flex;
+    }
+
+    &__title {
+        margin-top: 18px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 41px;
+        color: #000000;
+    }
+
+    &__text {
+        margin-top: 38px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+    &__card {
+        padding: 0 30px;
+        margin-bottom: 100px;
+
+        img {
+            width: 100%;
+        }
+    }
+}
